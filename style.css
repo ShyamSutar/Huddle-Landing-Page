@@ -95,7 +95,7 @@ body{
 
 
 .icon{
-    border: 2px solid white;
+    border: 0.10416666666666667vw solid white;
     padding: 0.5729166666666666vw;
     margin: 0.5208333333333334vw;
     border-radius: 50%;
@@ -110,4 +110,72 @@ body{
 #register:hover{
     color: white;
     background-color: hsl(300, 69%, 71%);
+}
+
+
+@media screen and (max-width: 375px){
+    
+body{
+    background-image: url(./images/bg-mobile.svg);
+    background-size: contain;
+}
+
+.container{
+    flex-direction: column;
+    width: 85.33333333333333vw;
+    
+}
+
+#img{
+    height: 61.333333333333336vw;
+    
+}
+
+
+#heading{
+    font-size: 6.133333333333334vw;   
+    /* border: 1px solid red; */
+    margin-left: 5.066666666666666vw;
+    width: 74.66666666666667vw;
+    text-align: center;
+    margin-top: 18.666666666666668vw;
+}
+
+#description{
+    font-size: 4.266666666666667vw;
+    margin-left: 2.4vw;
+    margin-top: 5.333333333333333vw;
+    /* border: 1px solid red; */
+    width: 80vw;
+    text-align: center;
+}
+
+#register{
+    width: 53.333333333333336vw;
+    height: 10.666666666666666vw;
+    font-size: 4.533333333333333vw;
+    margin-left: 13.333333333333334vw;
+    padding-top: 2.6666666666666665vw;
+    margin-top: 8vw;
+}
+
+#logo{
+    width: 32vw;
+    left: 5.6vw;
+}
+
+.icons{
+    /* border: 1px solid red; */
+    width: 80vw;
+
+    text-align: center;
+    margin-right: 7.466666666666667vw;
+    font-size: 4.8vw;
+    margin-top: 21.333333333333332vw;
+}
+
+.icon{
+    padding: 2.1333333333333333vw;
+}
+
 }
